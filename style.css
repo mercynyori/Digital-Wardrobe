@@ -1,0 +1,29 @@
+body {
+    background-color:white;
+    font-family:Arial, Helvetica, sans-serif;
+    opacity: 0.3;
+    margin:0;
+}
+
+h1 {
+    color:rgb(195, 13, 13);
+    text-align: center;
+
+}
+.avatar-section{
+    text-align: center;
+    font-size:100px;
+    margin:40;
+}
+
+.categories{
+    background-color:bisque;
+    font-family:Arial, Helvetica, sans-serif;
+    color:darkgreen;
+    border: 2px solid rgb(1, 60, 1);
+    padding: 12px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    margin: 5px;
+ 
+}
