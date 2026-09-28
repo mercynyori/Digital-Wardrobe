@@ -26,8 +26,21 @@ console.log(event.target.textContent);
 const clothes = document.getElementById("clothes");
 clothes.textContent = event.target.textContent;
 
+// get the contents in each category
+const category = event.target.textContent;
+const clothesForCategory = wardrobe[category];
+
+// once you click the trousers part you get the content in trousers
+console.log(clothesForCategory); 
+
 }
 
+
+uploadButton.addEventListener("click", function()){
+    const photoInput = document.getElementById("photoInput")
+    const uploadPhoto =document.getElementById("uploadPhoto")
+
+};
 mywardrobe();
 
 
