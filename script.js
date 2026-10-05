@@ -35,12 +35,27 @@ console.log(clothesForCategory);
 
 }
 
-
-uploadButton.addEventListener("click", function()){
+// click the choose file and the file part in my laptop opens so i can choose an image
+uploadButton.addEventListener("click", function(){
     const photoInput = document.getElementById("photoInput")
-    const uploadPhoto =document.getElementById("uploadPhoto")
+    photoInput.click()
 
-};
+});
+
+// once i have clicked an image the js should understand that a CHANGE has happened becoause the input value has changed
+photoInput.addEventListener("change", function(){
+   const file = photoInput.files[0];
+   // temporary story the images with url links
+   const imageURL = URL.createObjectURL(file);
+
+// create image
+const image = document.createElement("img")
+// get the source
+image.src = imageURL
+clothes.append(image)
+
+});
+
 mywardrobe();
 
 
