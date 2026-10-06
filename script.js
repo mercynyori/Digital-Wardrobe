@@ -1,5 +1,5 @@
 const wardrobe ={
-    Trousers:["black jeans", "white pants", "white palazo", "brown pants"],
+    Trousers:["black jeans" "images/Trousers/black-jean.jpg" , "white pants", "brown palazo", "brown pants"],
     Tops  :["Red long sleeve", "green blackless", "white tank top", "white top"],
     Dresses :["Red long", "pink dress", "white cherry,"],
     Sweaters :["Pink light", "grey heavy", "white cotton"],
