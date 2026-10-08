@@ -1,5 +1,5 @@
 const wardrobe ={
-    Trousers:["black jeans" "images/Trousers/black-jean.jpg" , "white pants", "brown palazo", "brown pants"],
+    Trousers:["images/Trousers/black-jeans.jpg" , "images/Trousers/white pants.jpg", "images/Trousers/brown-pants.jpg"],
     Tops  :["Red long sleeve", "green blackless", "white tank top", "white top"],
     Dresses :["Red long", "pink dress", "white cherry,"],
     Sweaters :["Pink light", "grey heavy", "white cotton"],
@@ -32,7 +32,13 @@ const clothesForCategory = wardrobe[category];
 
 // once you click the trousers part you get the content in trousers
 console.log(clothesForCategory); 
-
+for (let i = 0; i < clothesForCategory.length; i++){
+    // image of the trousers 
+const image = document.createElement("img");
+console.log(image);
+image.src = clothesForCategory[i];
+clothes.append(image)
+}
 }
 
 // click the choose file and the file part in my laptop opens so i can choose an image
