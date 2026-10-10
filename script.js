@@ -1,7 +1,7 @@
 const wardrobe ={
     Trousers:["images/Trousers/black-jeans.jpg" , "images/Trousers/white pants.jpg", "images/Trousers/brown-pants.jpg"],
-    Tops  :["Red long sleeve", "green blackless", "white tank top", "white top"],
-    Dresses :["Red long", "pink dress", "white cherry,"],
+    Tops  :["images/Tops/Red long sleeve.jpg", "images/Tops/white tank top.jpg", "Images/Tops/white top.jpg"],
+    Dresses :["images/Dresses/Red long.jpg", "images/Dresses/pink dress.jpg", "images/Dresses/white cherry.jpg"],
     Sweaters :["Pink light", "grey heavy", "white cotton"],
     WinterJackets :["white big", "marron", "long brown"]
 };
@@ -33,7 +33,7 @@ const clothesForCategory = wardrobe[category];
 // once you click the trousers part you get the content in trousers
 console.log(clothesForCategory); 
 for (let i = 0; i < clothesForCategory.length; i++){
-    // image of the trousers 
+    // image of the categories
 const image = document.createElement("img");
 console.log(image);
 image.src = clothesForCategory[i];

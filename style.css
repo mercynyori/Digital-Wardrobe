@@ -1,5 +1,5 @@
 body {
-    background-color:rgb(48, 47, 48);
+    background-color:rgb(82, 71, 82);
     font-family:Arial, Helvetica, sans-serif;
     opacity: 0.3;
     margin:0;
@@ -13,9 +13,11 @@ h1 {
 .avatar-section{
     text-align: center;
     font-size:100px;
-    margin:40;
+    margin:40px;
+    position:relative;
 img{
     height:400px;
+   
 }
     
 }
@@ -36,3 +38,9 @@ img{
     height:250px; 
 }
 
+.clothes_layering {
+    position:absolute;
+    top:0;
+    left:0;
+
+}
